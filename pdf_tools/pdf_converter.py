@@ -26,4 +26,4 @@ if __name__ == "__main__":
         convert_pdf_to_word_in_page_range(input_pdf, out_word, start, end)
     else:
         convert_pdf_to_word(input_pdf, out_word)
-    print("Selected pages of the PDF file have been converted to Word successfully.")
+    print("Selected pages of the PDF file have been converted to Word successfully!")
