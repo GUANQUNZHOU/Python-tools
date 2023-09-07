@@ -3,6 +3,9 @@ from json_tools.json_writer import JsonWriter
 
 
 class JsonToolFactor:
+    def __init__(self):
+        pass
+
     class_mapping = {"generator": JsonGenerator, "writer": JsonWriter}
     method_mapping = {"generate_json_as_list_of_value_and_key": JsonGenerator.generate_json_as_list_of_value_and_key,
                       "generate_json_as_key_and_list_of_values": JsonGenerator.generate_json_as_key_and_list_of_values,

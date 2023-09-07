@@ -1,4 +1,7 @@
 class JsonWriter:
+    def __init__(self):
+        pass
+
     @staticmethod
     def write_to_file_including_chinese_character(file_name, target_json):
         with open(file_name, 'w', encoding='utf-8') as out_file:
